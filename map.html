@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WonderBuddy - Map</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="map-page" id="map-page">
+        <!-- Header with back button and search -->
+        <div class="map-header">
+            <div class="back-button">
+                <a href="./index.html"><i class="fas fa-arrow-left"></i></a>
+            </div>
+            
+            <div class="map-search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            
+            <div class="map-filter">
+                <i class="fas fa-filter"></i>
+            </div>
+        </div>
+
+        <!-- Categories filter - horizontally scrollable -->
+        <div class="map-categories-container">
+            <div class="categories">
+                <div class="category active">
+                    <span>Food</span>
+                </div>
+                <div class="category">
+                    <span>Music</span>
+                </div>
+                <div class="category">
+                    <span>Scenery</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Map view -->
+        <div class="map-view">
+            <img src="https://www.freepik.com/premium-vector/map-with-destination-location-point-city-map-with-street-river-gps-map-navigator-concept_12389199" alt="Map">
+        </div>
+        
+        <!-- Horizontal card scroll -->
+        <div class="map-cards-container">
+            <div class="map-cards">
+                <div class="map-card">
+                    <div class="map-card-image">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Food">
+                    </div>
+                    <div class="map-card-info">
+                        <div class="map-card-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nylon, Boston</span>
+                        </div>
+                        <div class="map-card-title">
+                            Lorem dolor
+                        </div>
+                        <div class="map-card-rating">
+                            <i class="fas fa-star"></i>
+                            <span>5k</span>
+                        </div>
+                        <div class="map-card-action">
+                            <button class="map-action-button">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-card">
+                    <div class="map-card-image">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Food">
+                    </div>
+                    <div class="map-card-info">
+                        <div class="map-card-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nylon, Boston</span>
+                        </div>
+                        <div class="map-card-title">
+                            Lorem dolor
+                        </div>
+                        <div class="map-card-rating">
+                            <i class="fas fa-star"></i>
+                            <span>5k</span>
+                        </div>
+                        <div class="map-card-action">
+                            <button class="map-action-button">Explore</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-card">
+                    <div class="map-card-image">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" alt="Food">
+                    </div>
+                    <div class="map-card-info">
+                        <div class="map-card-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Nylon, Boston</span>
+                        </div>
+                        <div class="map-card-title">
+                            Lorem dolor
+                        </div>
+                        <div class="map-card-rating">
+                            <i class="fas fa-star"></i>
+                            <span>5k</span>
+                        </div>
+                        <div class="map-card-action">
+                            <button class="map-action-button">Explore</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Detail page content (hidden by default, shown when clicking a place) -->
+        <div class="map-detail-page hidden" id="map-detail-page">
+            <div class="detail-header">
+                <div class="detail-back-button">
+                    <i class="fas fa-arrow-left"></i>
+                </div>
+                <div class="detail-share">
+                    <i class="fas fa-share-alt"></i>
+                </div>
+            </div>
+            
+            <div class="detail-image-slider">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Beach">
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            
+            <div class="detail-content">
+                <div class="detail-title-section">
+                    <h2>Lorem ipsum dolor</h2>
+                    <div class="detail-rating">
+                        <i class="fas fa-star"></i>
+                        <span>5k</span>
+                    </div>
+                </div>
+                
+                <div class="detail-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Nylon, Boston</span>
+                </div>
+                
+                <div class="detail-info-section">
+                    <h3>Details</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur. Praesent elementum vel mattis viverra quam enim egestas. Fusce cursus nunc elementum a nibh bibendum nibh dui. Ornare justo pellentesque et ullamcorper ultrices amet cursus massa.</p>
+                </div>
+                
+                <div class="detail-shared-section">
+                    <h3>Shared with</h3>
+                    <div class="shared-avatars">
+                        <div class="shared-avatar"><img src="https://randomuser.me/api/portraits/women/32.jpg" alt="User"></div>
+                        <div class="shared-avatar"><img src="https://randomuser.me/api/portraits/men/45.jpg" alt="User"></div>
+                        <div class="shared-avatar"><img src="https://randomuser.me/api/portraits/women/68.jpg" alt="User"></div>
+                        <div class="shared-avatar more-avatar">+</div>
+                    </div>
+                </div>
+                
+                <div class="detail-price-section">
+                    <div class="price-info">
+                        <span class="price">5,000Frs</span>
+                        <span class="price-unit">/per person</span>
+                    </div>
+                    <button class="share-now-button">Share Now <i class="fas fa-arrow-right"></i></button>
+                </div>
+                
+                <div class="detail-review-section">
+                    <div class="rating-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="rating-count">4.5 (8)</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom navigation -->
+        <div class="bottom-nav">
+            <div class="nav-item">
+                <a href="./index.html">
+                    <i class="fas fa-home"></i>
+                </a>
+            </div>
+            <div class="nav-item">
+                <a href="./gallery.html">
+                    <i class="far fa-images"></i>
+                </a>
+            </div>
+            <div class="nav-item active">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Map</span>
+            </div>
+            <div class="nav-item">
+                <i class="far fa-comment-dots"></i>
+            </div>
+            <div class="nav-item">
+                <i class="far fa-user"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
