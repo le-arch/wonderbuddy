@@ -1,12 +1,13 @@
 # WonderBuddy
 
 ## Overview
-WonderBuddy is a web-based project utilizing CSS, HTML, and JavaScript. It aims to provide [brief description of your project's main purpose or features].
+WonderBuddy is a web-based project utilizing CSS, HTML, and JavaScript. It aims to provide tourists and travellers to communicate, find location on maps to their destinations.
 
 ## Features
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
+- homepage
+- maps
+- gallery
+- chats (still to be implemented)
 
 ## Installation
 
@@ -18,7 +19,10 @@ git clone https://github.com/le-arch/wonderbuddy.git
 ```
 
 ## Usage
-[Explain how users interact with your project. Include screenshots, demo links, or usage examples.]
+-<img width="497" height="542" alt="Screenshot from 2025-08-07 15-57-42" src="https://github.com/user-attachments/assets/a2118d8b-47d7-4ab8-8ae2-0faeaee50c17" />
+
+-
+<img width="497" height="567" alt="Screenshot from 2025-08-07 15-56-36" src="https://github.com/user-attachments/assets/bf7c82a3-ca1f-4a5f-a29e-db0178951208" />
 
 ## Contributing
 Contributions are welcome! Please follow these steps:
@@ -28,8 +32,5 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature-name`)
 5. Open a Pull Request
 
-## License
-[Specify the license, e.g., MIT License.]
-
 ## Contact
-For questions or feedback, contact [your email or GitHub profile].
+For questions or feedback, contact basilleonora@gmail.com.
