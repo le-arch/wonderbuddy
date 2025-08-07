@@ -1,0 +1,1 @@
+{\n  "name": "WonderBuddy",\n  "short_name": "WonderBuddy",\n  "description": "A helpful buddy for your web experience.",\n  "start_url": "./index.html",\n  "display": "standalone",\n  "theme_color": "#2196f3",\n  "background_color": "#ffffff",\n  "icons": [\n    {\n      "src": "icon-placeholder.png",\n      "sizes": "192x192",\n      "type": "image/png"\n    }\n  ]\n}
